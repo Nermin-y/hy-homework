@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+ body{background:rgb(163, 156, 156) ;display: flex;justify-content: center; line-break: 20px;font-family: "monospace";}
+ .cv_container{width: 900px; margin: 30px;display:grid ;position: relative; grid-template-columns: 1fr 3fr;height: 900px;}
+ .container_left{padding: 50px;float: left;position: relative;background-color: #ffddf4;height: 700px;color:#000041;}
+ .container_right{padding: 50px;float: right;background-color:#dee0e2;position: relative;height: 700px;}
+ .contant{padding-top: 18px;padding-left: 3px;}
+h2{font-size: 800;position: relative;color: darkkhaki;margin-top: 40px;margin-left: 20px;}
+ h3{ color:#2e2eff;font-family:"monospace";margin-bottom: 10px;letter-spacing: 1px;margin-top: 30px;font-size: 20px;}
+ .contant p{position: relative;margin-top: 30px;}
+.info{color: #000041;margin-left: 20px;}
+i{color: #87cefa;margin-left: 5px;}
+.photo{position: relative; width:200px;border-radius: 80% ;overflow: hidden;margin-top: 20px;}
+img{position: relative;top: 0;width:100%; left: 0;height: 100%;object-fit: cover;}
+
+.education{margin-top: 30px;line-height: 32px;margin-bottom: 30px}
+.Work Experience {position: relative;margin-top: 20px;}
+.work {line-height: 32px;margin-top: 30px;margin-bottom: 30px}
+.Languages{position: relative;padding: top 40px;padding-left: 10px;}
+.Languages .text{position: relative; width: 100%;border: 2px;height: 10px; background-color: #ebecee;margin-top: 30px;display: block;}
+.Languages .text div{position: absolute;height: 100%;top: 0;left: 0;background-color: #ec90ff;}
+.Languages span{position: relative;font-size: 40;font-weight: 500;color: deepskyblue;}
+Languages h3{font-size: 800;color: black;}
+hr.line{ border:0 ; height: 1px;background-image: linear-gradient(to right, #ec90ff, #4f39f3);
+    width: 70%;margin-top: _8px;}
+.Languages ul li{display: flex;margin-bottom: 10px;margin-top: 10px;}
+.lan{margin-right: 6px;margin-top: 1px;position: relative;font-size: 300;}
